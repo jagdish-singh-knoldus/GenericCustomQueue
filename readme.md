@@ -10,8 +10,11 @@ Generic Queue is implemented in Scala programming language.
 
 ## Requirements
 Java 11
+
 Scala 2.13.5
+
 sbt 1.4.7
+
 Commands
 
 ### clean
