@@ -66,7 +66,7 @@ More details about project libraraies (e.g. version etc..) can be found in file 
 
 ## Functionality
 
-perform queue operations i.e. enqueue, dequeue, isEmpty, peek
+perform queue operations i.e. enqueue, dequeue, isEmpty, peek, toString.
 This functionality is implemented on generic Queue
 
 e.g.
