@@ -1,31 +1,35 @@
-#Generic Custom Queue
+## Generic Custom Queue
 
-##Introduction
+## Introduction
 
 This project is used to create a generic custom queue in SBT using Scala programming Language.
 
-##Technology
+## Technology
 
 Generic Queue is implemented in Scala programming language.
 
-##Requirements
+## Requirements
 Java 11
 Scala 2.13.5
 sbt 1.4.7
 Commands
-###clean
+
+### clean
 
 This command cleans the sbt project by deleting the target directory. The command output relevant messages.
 ````
 sbt clean
 ````
-###compile 
+
+### compile 
 
 This command compiles the scala source classes of the sbt project.
+
 ````
 sbt compile
 ````
-###Run 
+
+### Run 
 
 Enter the project folder and type project module name along with the sbt run command:
 ````
@@ -60,7 +64,7 @@ scoverage plugin is used in the code for checking code coverage. Code coverage i
 More details about project libraraies (e.g. version etc..) can be found in file **build.sbt**
 
 
-##Functionality
+## Functionality
 
 perform queue operations i.e. enqueue, dequeue, isEmpty, peek
 This functionality is implemented on generic Queue
@@ -70,7 +74,7 @@ e.g.
 Queue(3,4,7)
 Queue("Hi","this","is","generic","custom","queue")
 ````
-###enqueue
+### enqueue
 
 This functionality adds element in the queue
 
@@ -78,7 +82,7 @@ e.g.
 ````
 enqueue(1), enqueue("string") . . ...........
 ````
-###dequeue
+### dequeue
 
 This functionality removes element from front of the queue
 
@@ -86,7 +90,7 @@ e.g.
 ````
 dequeue
 ````
-###isEmpty
+### isEmpty
 
 This functionality checks if queue is empty or not
 
@@ -94,7 +98,7 @@ e.g.
 ````
 isEmpty = true/ false
 ````
-###peek
+### peek
 
 This functionality returns front element of the queue
 
@@ -103,7 +107,7 @@ e.g.
 peek
 ````
 
-###toString
+### toString
 
 This functionality returns elements of Queue as string
 
@@ -120,15 +124,15 @@ Source files that are implementing this functionality are:
 
 * Queue
 
-##Generate scalastyle configuration file
+## Generate scalastyle configuration file
 
-######Note: The configuration for scalastyle is already created.
+###### Note: The configuration for scalastyle is already created.
 
 ````
 sbt scalastyleGenerateConfig
 ````
 
-##Check scalastyle for code
+## Check scalastyle for code
 ````
 sbt scalastyle
 ````
