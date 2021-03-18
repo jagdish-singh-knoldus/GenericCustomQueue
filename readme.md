@@ -117,10 +117,10 @@ Queue(3,4,7)
 Queue("Hi","this","is","generic","custom","queue")
 ````
 
-A number of samples is given in test file are:
+A number of samples is given in test file:
 * QueueSpec
 
-Source files that are implementing this functionality are:
+Source file in which this functionality is implemented:
 
 * Queue
 
