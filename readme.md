@@ -1,8 +1,11 @@
 #Generic Custom Queue
+
 ##Introduction
+
 This project is used to create a generic custom queue in SBT using Scala programming Language.
 
 ##Technology
+
 Generic Queue is implemented in Scala programming language.
 
 ##Requirements
@@ -32,8 +35,7 @@ More details about project (e.g. version etc..) can be found in file build.sbt
 
 ### Tests
 
-Code is developed by applying [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and tests are located in
-folder **/src/test/scala-2.13**,  For running all tests enter the project folder and type:
+Code is developed by applying [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and tests are located in folder **/src/test/scala-2.13**,  For running all tests enter the project folder and type:
 
  ```
  sbt test
@@ -59,6 +61,7 @@ More details about project libraraies (e.g. version etc..) can be found in file 
 
 
 ##Functionality
+
 perform queue operations i.e. enqueue, dequeue, isEmpty, peek
 This functionality is implemented on generic Queue
 
@@ -118,6 +121,7 @@ Source files that are implementing this functionality are:
 * Queue
 
 ##Generate scalastyle configuration file
+
 ######Note: The configuration for scalastyle is already created.
 
 ````
