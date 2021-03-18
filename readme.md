@@ -15,7 +15,7 @@ Scala 2.13.5
 
 sbt 1.4.7
 
-##Commands
+## Commands
 
 ### clean
 
